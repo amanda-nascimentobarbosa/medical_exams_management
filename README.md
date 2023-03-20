@@ -30,7 +30,7 @@ During the COVID-19 pandemic, the exams were suspended due to safety concerns, w
 * The data has undergone a cleaning and updating process.
 
 * Changes in the spreadsheet:
-     * Formulas were added for validation and automatic information generation:
+     * Formulas were included for automatic information generation and validation:
           * Calculation of the due date, taking into consideration the date of the last exam and the periodicity (biannual or annual);
           * Calculation of how many days are left until the exam expiration or if it has already expired;
           * Addition of the *status* column that classifies the exams as: *valid*, *expired*, *less than 30 days to expire* or *employee dismissed*. In this column, a color format was added, assigning different colors to each of the statuses.

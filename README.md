@@ -1,30 +1,45 @@
-# Dashboard para Controle de ASO (Atestado de SAúde Ocupacional)
+# Medical Exams Management (Controle de Atestado de Saúde Ocupacional)
 
-## Business Case
+### Project Category
+
+Hospital Management, project automation.
+
+### Business Case
 
 Esse projeto é similar a outro projeto que desenvolvi enquanto atuava como residente em Gestão Hospitalar em um Hospital Universitário.
 
-O setor de saúde ocupacional carecia de uma ferramenta que pudesse fazer a gestão dos exames ocupacionais de seus colaboradores. 
-Inicialmente, verifiquei que o setor contava com uma planilha de Excel onde todas as informações eram lançadas de forma manual, sem nenhum tipo de automatização e nem visualização, o que resultava em dados duplicados, dados faltantes e dificuldade de se apurar os exames que estavam vencidos de forma rápida. 
-Esse projeto foi desenvolvido durante a pandemia do Covid-19, período o qual esses exames foram suspensos, temporariamente, resultando em um grande número de atrasos.
+Occupational exams are medical exams that aim to evaluate the health of the worker before, during, and at the end of their employment with the company, being part of the Occupational Health Medical Control Program and regulated by NR 07 (brazilian legislation).
 
-## Solução
+The Occupational Health sector of the hospital used to perform Occupational exams control through an Excel spreadsheet. All information was manually entered without any type of automation or data validation, and there were no quick visualization methods for the information.
 
-Ferramenta:
+This situation resulted in many cases of lack of information and data duplications. In addition to the difficulty of quickly determining how many employees had expired exams.
 
-O dashboard foi desenvolvido no Excel, pois já era utilizada pela equipe, a quantidade de registro era pequena, de fácil manutenção.
+The lack of exam management caused delays in conducting exams, which impacted the department's goals, as not conducting exams within the appropriate time frame can result in fines and penalties for the organization.
 
-Inicialmente, os dados foram validados, as duplicatas removidas, e todos os dados atualizados.
+Another problem faced by the team was the workload overload. Spreadsheet updates took a lot of time and delayed the team's work.
 
-Foram inseridas fórmulas para a geraração informações automáticas:
-  - Cálculo da data de vencimento levando em consideração a data do último exame e a periodicidade (semestral ou anual);
-  - Cálculo de quantos dias faltam para vencer ou já está vencido;
-  - Inserção do status do exames (válido, vencido, menos de 30 dias para vencer, funcionário desligado)
-  
-  
-  ![image](https://user-images.githubusercontent.com/100388639/225771477-dc321b68-06d7-4c84-9023-0de6353e65d3.png)
+During the Covid-19 pandemic, the exams were suspended due to safety concerns, which caused a significant backlog in all demands, in addition to the workload burden on the occupational physician responsible for conducting these exams.
 
+### Projects Limitations
 
+* There was no budget to invest in external solutions, such as hiring software.
+* The team had low knowledge of Excel or other planning tools.
+
+### Solution
+
+* The existing Excel spreadsheet was kept, as the team was already familiar with the tool, and the number of records was small and easy to maintain.
+* The data has undergone a cleaning and updating process.
+* Formulas were added for validation and automatic information generation:
+      * Calculation of the due date taking into consideration the date of the last exam and the periodicity (biannual or annual);
+      * Calculation of how many days are left until expiration or if it has already expired;
+      * Insertion of the *status* column that classifies the exams as valid, expired, less than 30 days to expire or employee dismissed. In this column, a formatting was added that assigns colors to each of the statuses.
+      * A column was added informing whether the employee is fit or not for work.
+* The developed dashboard contains the main metrics for the sector: the total number of employees, the number of valid exams, those that expire in the next 30 days, and those that have expired. It also shows the number of exams that expire throughout the year, separated by months, providing an overview of the demand for these exams throughout the year. Additionally, there is a summary table with the main data on employees.
+
+### Conclusions
+
+* The automation reduced the time to update the data, better organization of the demands and better integration of the team.
+* From the organization of information, it was found that the number of expired exams was very high (more than 50%), due to the suspension of their performance during the beginning of the pandemic. As a result, the sector had a subsidy to request temporary hiring and one more occupational physician who would help with this repressed demand, in addition to the increase in work due to Covid-19.
 
 
 https://user-images.githubusercontent.com/100388639/225772903-6efcc39d-026b-4c7f-9830-c5d8683b4c8d.mp4

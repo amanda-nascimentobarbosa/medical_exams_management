@@ -10,7 +10,7 @@
 
 Occupational exams are medical exams that aim to evaluate the health of the worker before, during, and at the end of their employment with the company, being part of the Occupational Health Medical Control Program and regulated by NR 07 (brazilian legislation). The types of the exams are Pre-Employment Medical Exam, Periodic Medical Exam, Job Change Health Assessment, Return-to-Duty Medical Exam and Dismissal Medical Exam.
 
-The Occupational Health sector of the hospital used to perform Occupational exams control through an Excel spreadsheet. All information was manually entered without any type of automation or data validation, and there were no quick visualization methods for the information.
+The Occupational Health sector of the hospital used to perform occupational exams control through an Excel spreadsheet. All information was manually entered without any type of automation or data validation, and there were no quick visualization methods for the information.
 
 This situation resulted in many cases of lack of information and data duplications. In addition to the difficulty of quickly determining how many employees had expired exams.
 

@@ -46,8 +46,9 @@ During the COVID-19 pandemic, the exams were suspended due to safety concerns, w
 ### Conclusions
 
 * The automation reduced the time to update the data, better organization of the demands and better integration of the team.
-* From the organization of information, it was found that the number of expired exams was very high (more than 50%), due to the suspension of their performance during the beginning of the pandemic. As a result, the sector had a subsidy to request temporary hiring and one more occupational physician who would help with this repressed demand, in addition to the increase in work due to Covid-19.
+* Due to the suspension of their performance during the pandemic, it was discovered that the number of expired exams was very high, more than 50% (the data below does not represent the true one). As a result, the department had a subsidy to request the temporary hiring of one more occupational physician who would help with this repressed demand.
 
+### Dashboard
 
 https://user-images.githubusercontent.com/100388639/225772903-6efcc39d-026b-4c7f-9830-c5d8683b4c8d.mp4
 

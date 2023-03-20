@@ -1,12 +1,12 @@
 # Medical Exams Management (Controle de Atestado de Saúde Ocupacional)
 
+*Disclaimer: This project is similar to another one I developed while working as a resident in Hospital Management. The data used in the analysis are fictitious.*
+
 ### Project Category
 
-Hospital Management, project automation.
+* Hospital Management, project automation.
 
 ### Business Case
-
-Esse projeto é similar a outro projeto que desenvolvi enquanto atuava como residente em Gestão Hospitalar em um Hospital Universitário.
 
 Occupational exams are medical exams that aim to evaluate the health of the worker before, during, and at the end of their employment with the company, being part of the Occupational Health Medical Control Program and regulated by NR 07 (brazilian legislation).
 

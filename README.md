@@ -14,7 +14,7 @@ The Occupational Health departament of the hospital used to perform occupational
 
 This situation resulted in many cases of lack of information and data duplications. Also, it was difficult to quickly determine how many employees had expired exams and how many of them were about to expire in the following months.
 
-The lack of management caused delays in conducting the checkups, which impacted the department's goals, as not conducting exams within the appropriate time frame can result in fines and penalties for the organization.
+The lack of management caused delays in conducting the checkups, which impacted the department's goals. And by not conducting the exams within the appropriate time frame, it can result in fines and penalties for the organization.
 
 Also, because of the lack of automation, the spreadsheet updates took a lot of time and delayed the team's work.
 

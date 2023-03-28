@@ -23,6 +23,7 @@ During the COVID-19 pandemic, the exams were suspended due to safety concerns, w
 ### Projects Limitations
 
 * There was no budget to invest in external solutions, such as hiring software.
+* The team members have basic knowledge of how to use Excel, so the project must be easy to maintain.
 
 ### Solution
 
@@ -40,7 +41,7 @@ During the COVID-19 pandemic, the exams were suspended due to safety concerns, w
      * The dashboard includes the key statistics, including the total number of employees, the number of valid tests, exams that expire in the next 30 days, and exams that have already expired. 
      * A summary of the demand for these tests over the course of the year is provided by the number of exams that expire during the year, broken down by months. 
      * A summary table with the key information on the staff is also included.
-     * All of this can be filtered by branches and departments.
+     * All of this can be filtered by expired date and branches.
 
 
 ### Conclusions

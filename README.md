@@ -50,7 +50,7 @@ During the COVID-19 pandemic, the exams were suspended due to safety concerns, w
 
 ### Dashboard
 
-https://user-images.githubusercontent.com/100388639/225772903-6efcc39d-026b-4c7f-9830-c5d8683b4c8d.mp4
+https://user-images.githubusercontent.com/100388639/228375076-0e0ff04a-3b84-46f6-a5b1-7a2238307860.mp4
 
 
 #### You can see the project [here](https://github.com/amanda-nascimentobarbosa/medical_exams_management/blob/main/Medical%20Exams%20Management.xlsm).

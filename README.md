@@ -53,7 +53,8 @@ _Dashboard_
     - table with the number of overdue exams and less than 30 days to expire by department
     - data segmentation by date of expiration, and sector.
  
-![image](https://github.com/amanda-nascimentobarbosa/medical_exams_management/assets/100388639/580b898b-26c3-4b5d-af62-772eea277653)
+![image](https://github.com/amanda-nascimentobarbosa/medical_exams_management/assets/100388639/d26f14d5-4188-4646-8da0-5b8ae7731c2b)
+
 
 #### You can see the dashboard [here](https://lookerstudio.google.com/s/qSE1x1SbHeY).
 

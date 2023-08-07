@@ -1,24 +1,24 @@
 # Medical Exams Management (Controle de Atestado de Saúde Ocupacional)
 
-*Disclaimer: This project is similar to another one I developed while working as a resident in Hospital Management. The data used in the analysis are fictitious.*
-
 ### Project Category
 
-* Hospital Management, project automation, Excel.
+* Hospital Management, Google Sheets, Looker Studio.
 
 ### Business Case
 
-Occupational exams are medical exams that aim to evaluate the health of the worker before, during, and at the end of their employment with the company, being part of the Occupational Health Medical Control Program and regulated by NR 07 (brazilian legislation). The types of the exams are Pre-Employment Medical Exam, Periodic Medical Exam, Job Change Health Assessment, Return-to-Duty Medical Exam and Dismissal Medical Exam.
+Occupational Health Certificate is a document from Occupational Medicine that aims to attest whether or not the employee is able to perform his/her professional duties for the indicated position. The exam is carried out before, during and at the end of the employment relationship, as part of the Occupational Health Medical Control Program.  The types of exams are Pre-Employment Medical Exam, Periodic Medical Exam, Job Change Health Assessment, Return-to-Duty Medical Exam and Dismissal Medical Exam.
 
-The Occupational Health departament of the hospital used to perform occupational exams control through an Excel spreadsheet. All information was manually entered without any type of automation or data validation, and there were no quick visualization methods for the information.
+At the hospital, the Occupational Health department is responsible for conducting the exams. Currently, these exams are managed through an Excel spreadsheet, where all information is entered manually without any type of automation, validation, or visualization. And the information is not shared online, which makes it difficult for the entire team to access.
 
-This situation resulted in many cases of lack of information and data duplications. Also, it was difficult to quickly determine how many employees had expired exams and how many of them were about to expire in the following months.
+Many exams are overdue due to lack of organization, which has also affected the department's goals. This activity was suspended during the pandemic due to security precautions, which made the situation worse.
 
-The lack of management caused delays in conducting the checkups, which impacted the department's goals. And by not conducting the exams within the appropriate time frame, it can result in fines and penalties for the organization.
+### Objectives
 
-Also, because of the lack of automation, the spreadsheet updates took a lot of time and delayed the team's work.
+The data analyst was requested to organize the data and create a dashboard to monitor the indicators.
 
-During the COVID-19 pandemic, the exams were suspended due to safety concerns, which caused a significant backlog in all demands. especially for the occupational physician in charge of these examinations.
+- generate a simple solution to organize the information online;
+- automate data entry;
+- create a dashboard to track the status of exams.
 
 ### Projects Limitations
 
@@ -27,32 +27,37 @@ During the COVID-19 pandemic, the exams were suspended due to safety concerns, w
 
 ### Solution
 
-* The existing Excel spreadsheet was kept, as the team was already familiar with the tool and the number of records was small and easy to maintain.
-* The data has undergone a cleaning and updating process.
+_Tool_
+- The spreadsheet was developed using Google Sheets, as the number of records is small, maintenance is simple and now the information is online and available to everyone on the team;
+- The dashboard was developed on Looker Studio, also because it is online and has a direct connection with Google Sheets.
 
-* Changes in the spreadsheet:
-     * Formulas were included for automatic information generation and validation:
-          * Calculation of the due date, taking into consideration the date of the last exam and the periodicity (biannual or annual);
-          * Calculation of how many days are left until the exam expiration or if it has already expired;
-          * Addition of the *status* column that classifies the exams as: *valid*, *expired*, *less than 30 days to expire* or *employee dismissed*. In this column, a color format was added, assigning different colors to each of the statuses.
-          * The status of the employee's suitability for employment was indicated in a new column.
+_Cleaning_
+- The data has been updated and organized, removing duplicates and inconsistencies.
 
-* Dashboard
-     * The dashboard includes the key statistics, including the total number of employees, the number of valid tests, exams that expire in the next 30 days, and exams that have already expired. 
-     * A summary of the demand for these tests over the course of the year is provided by the number of exams that expire during the year, broken down by months. 
-     * A summary table with the key information on the staff is also included.
-     * All of this can be filtered by expired date and branches.
+_Automation_
+- New columns and formulas for automation were inserted:
+    - *Expired Date:* calculates the date taking into account the date of the last exam and the periodicity, semester or annual;
+    - *Expired Days:* calculates how many days is left to expire or have already expired;
+    - *Status:* addition of the status column that classifies exams as *Valid, Expired, Less than 30 days to expire,* or *Employee dismissed*. Formatting was inserted in this field that assigns colors to each of the statuses.
+    - a column was inserted informing whether or not the employee is fit for work.
+ 
+![image](https://github.com/amanda-nascimentobarbosa/medical_exams_management/assets/100388639/9b994220-55fa-4398-a5ba-2b311529eafe)
 
+
+_Dashboard_
+- It was developed in Looker Studio with metrics focused on Exam Expiration Status:
+    - total of *Valid, Less than 30 days to expire* and *Expired* exams*;*
+    - total number of active employees;
+    - bar chart separating the status between the two hospital units;
+    - bar graph indicating the number of exams due over the months;
+    - table with the number of overdue exams and less than 30 days to expire by department
+    - data segmentation by date of expiration, and sector.
+ 
+![image](https://github.com/amanda-nascimentobarbosa/medical_exams_management/assets/100388639/580b898b-26c3-4b5d-af62-772eea277653)
+
+#### You can see the project [here](https://lookerstudio.google.com/reporting/6168a228-b714-47c5-81ab-9ad2489d518c).
 
 ### Conclusions
 
-* The automation reduced the time to update the data, better organization of the demands and better integration of the team.
+* The automation of the spreadsheet and the creation of the dashboard reduced the time it took to update the data, ensured greater organization, and created a quick view of the information that helps in decision-making.
 * Due to the suspension of their performance during the pandemic, it was discovered that the number of expired exams was very high, more than 50% (the data below does not represent the true one). As a result, the department had a subsidy to request the temporary hiring of one more occupational physician who would help with this repressed demand.
-
-### Dashboard
-
-https://user-images.githubusercontent.com/100388639/228375076-0e0ff04a-3b84-46f6-a5b1-7a2238307860.mp4
-
-
-#### You can see the project [here](https://github.com/amanda-nascimentobarbosa/medical_exams_management/blob/main/Medical%20Exams%20Management.xlsm).
-

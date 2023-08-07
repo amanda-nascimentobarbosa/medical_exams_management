@@ -55,7 +55,7 @@ _Dashboard_
  
 ![image](https://github.com/amanda-nascimentobarbosa/medical_exams_management/assets/100388639/580b898b-26c3-4b5d-af62-772eea277653)
 
-#### You can see the project [here](https://lookerstudio.google.com/reporting/6168a228-b714-47c5-81ab-9ad2489d518c).
+#### You can see the dashboard [here](https://lookerstudio.google.com/s/qSE1x1SbHeY).
 
 ### Conclusions
 
